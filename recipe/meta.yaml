@@ -2,8 +2,8 @@
 {%set version = "0.32.14" %}
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "e74b0338f4d56dcb0cb57f1b4f5afee5b2ffe595dd5a68b62da66ea4a7399cce" %}
-{%set build_num = "0" %}
+{%set hash = "e74b0338f4d56dcb0cb57f1b4f5afee5b2ffe595dd5a68b62da66ea4a7399cce" %}
+{%set build = 0 %}
 
 package:
   name: {{ name|lower }}
@@ -12,10 +12,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ compress_type }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  {{ hash_type }}: {{ hash_val }}
+  {{ hash_type }}: {{ hash }}
 
 build:
-  number: {{ build_num }}
+  number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -32,7 +32,7 @@ requirements:
     - arrow >=0.3.4
     - intervals >=0.7.1
     - phonenumbers >=5.9.2
-    - passlib >=1.6,< 2.0
+    - passlib >=1.6,<2.0
     - colour >=0.0.4
     - ipaddr  # [py2k]
     - enum34  # [py<34]
