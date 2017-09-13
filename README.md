@@ -14,9 +14,7 @@ Summary: Various utility functions for SQLAlchemy.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sqlalchemy-utils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sqlalchemy-utils-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sqlalchemy-utils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sqlalchemy-utils-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sqlalchemy-utils-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sqlalchemy-utils-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/sqlalchemy-utils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sqlalchemy-utils-feedstock)
 
 Current release info
 ====================
