@@ -1,8 +1,8 @@
 {% set name = "SQLAlchemy-Utils" %}
-{% set version = "0.32.16" %}
+{% set version = "0.32.21" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "ca07051b5d45e8b077d1ce7a475752988336c7b11cf9f868f6f97f311a84baa3" %}
+{% set hash = "e35431b0e57c4f7030ff598c23813c8b7b04b508ce10e8e9ebe448645b38d6d7" %}
 {% set build = 0 %}
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
   {{ hash_type }}: {{ hash }}
 
 build:
