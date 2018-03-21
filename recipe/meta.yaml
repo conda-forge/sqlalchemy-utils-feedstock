@@ -1,8 +1,8 @@
 {% set name = "SQLAlchemy-Utils" %}
-{% set version = "0.32.21" %}
+{% set version = "0.33.1" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "e35431b0e57c4f7030ff598c23813c8b7b04b508ce10e8e9ebe448645b38d6d7" %}
+{% set hash = "e90725b96c4625c319b89deffa85fe37a4845ece33dd2a951546cff936311e5c" %}
 {% set build = 0 %}
 
 package:
@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: python
-  number: {{ build }}
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
