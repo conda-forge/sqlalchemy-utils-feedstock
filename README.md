@@ -14,12 +14,15 @@ Summary: Various utility functions for SQLAlchemy.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/sqlalchemy-utils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sqlalchemy-utils-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sqlalchemy-utils-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sqlalchemy-utils-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sqlalchemy-utils/badges/version.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sqlalchemy-utils/badges/downloads.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils) |
 
 Installing sqlalchemy-utils
 ===========================
