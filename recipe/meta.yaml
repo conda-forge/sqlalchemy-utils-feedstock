@@ -1,31 +1,27 @@
-{% set name = "SQLAlchemy-Utils" %}
-{% set version = "0.33.3" %}
-{% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "4119204ff302906015516992b7481e5aabeeaa61c7b04329f9113e42c097b855" %}
+{% set version = "0.33.6" %}
 
 package:
-  name: {{ name|lower }}
+  name: sqlalchemy-utils
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  url: https://pypi.org/packages/source/S/SQLAlchemy-Utils/SQLAlchemy-Utils-{{ version }}.tar.gz
+  sha256: 45ab41c90bfb8dd676e83179be3088b3f2d64b613e3b590187163dd941c22d4c
 
 build:
   number: 1000
-  script: python -m pip install --no-deps --ignore-installed .
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
 
 requirements:
-  build:
+  host:
     - python
     - pip
-
   run:
     - python
     - six
     - sqlalchemy >=1.0
+    # extras
     - anyjson >=0.3.3
     - babel >=1.3
     - arrow >=0.3.4
@@ -33,8 +29,6 @@ requirements:
     - phonenumbers >=5.9.2
     - passlib >=1.6,<2.0
     - colour >=0.0.4
-    - ipaddr  # [py2k]
-    - enum34  # [py<34]
     - python-dateutil
     - furl >=0.4.1
     - cryptography >=0.6
@@ -52,7 +46,7 @@ about:
   license_file: LICENSE
   license: BSD 3-Clause
   license_family: BSD
-  summary: 'Various utility functions for SQLAlchemy.'
+  summary: 'Various utility functions for SQLAlchemy'
   dev_url: https://github.com/kvesteri/sqlalchemy-utils
   doc_url: https://sqlalchemy-utils.readthedocs.io
 
