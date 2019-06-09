@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About sqlalchemy-utils
 ======================
 
@@ -18,8 +14,15 @@ Summary: Various utility functions for SQLAlchemy
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sqlalchemy-utils-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sqlalchemy-utils-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5317&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sqlalchemy-utils-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
