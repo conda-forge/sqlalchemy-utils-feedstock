@@ -1,4 +1,4 @@
-{% set version = "0.33.11" %}
+{% set version = "0.34.0" %}
 
 package:
   name: sqlalchemy-utils
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/S/SQLAlchemy-Utils/SQLAlchemy-Utils-{{ version }}.tar.gz
-  sha256: 3f1cb542cf0549a0de508d4919f3ad693a36230bf4cd13fdd6253549fec71182
+  sha256: 0ebd4d176a5786233db9f2e92040476fcff8b1b426fdbbb7ee4f478280ee9166
 
 build:
-  number: 1000
+  number: 0
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
 
