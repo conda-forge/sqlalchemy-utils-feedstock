@@ -44,7 +44,7 @@ test:
 about:
   home: https://github.com/kvesteri/sqlalchemy-utils
   license_file: LICENSE
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   summary: 'Various utility functions for SQLAlchemy'
   dev_url: https://github.com/kvesteri/sqlalchemy-utils
