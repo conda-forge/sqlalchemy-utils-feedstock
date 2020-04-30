@@ -3,7 +3,7 @@ About sqlalchemy-utils
 
 Home: https://github.com/kvesteri/sqlalchemy-utils
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
