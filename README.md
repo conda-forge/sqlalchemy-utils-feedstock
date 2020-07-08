@@ -5,7 +5,7 @@ Home: https://github.com/kvesteri/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy
 
