@@ -1,24 +1,21 @@
-{% set version = "0.36.8" %}
+{% set version = "0.37.0" %}
+{% set wheel_url = "https://files.pythonhosted.org/packages/bc/e9/0815b06efd474bd13945c1975c33d3b7fe1200700f394924e75e018e6843/SQLAlchemy_Utils-0.37.0-py2.py3-none-any.whl" %}
 
 package:
   name: sqlalchemy-utils
   version: {{ version }}
 
-source:
-  url: https://pypi.org/packages/source/S/SQLAlchemy-Utils/SQLAlchemy-Utils-{{ version }}.tar.gz
-  sha256: fb66e9956e41340011b70b80f898fde6064ec1817af77199ee21ace71d7d6ab0
-
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
+  script: {{ PYTHON }} -m pip install {{ wheel_url }} --no-deps --ignore-installed -vvv
 
 requirements:
   host:
-    - python
+    - python >=3.4
     - pip
   run:
-    - python
+    - python >=3.4
     - six
     - sqlalchemy >=1.0
     # extras
