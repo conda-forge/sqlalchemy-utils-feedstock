@@ -1,4 +1,4 @@
-{% set version = "0.37.1" %}
+{% set version = "0.37.7" %}
 
 package:
   name: sqlalchemy-utils
