@@ -9,9 +9,9 @@ source:
   sha256: 4667edbdcb1ece011076b69772ef524bfbb17cc97e03f11ee6b85d98e7741d61
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
@@ -41,6 +41,10 @@ test:
     - sqlalchemy_utils.primitives
     - sqlalchemy_utils.relationships
     - sqlalchemy_utils.types
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/kvesteri/sqlalchemy-utils
