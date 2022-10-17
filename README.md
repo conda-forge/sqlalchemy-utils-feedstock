@@ -7,11 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlalchemy-utils-feedstock/blob/main/LICENSE.txt)
 
-Summary: Various utility functions for SQLAlchemy
-
-Development: https://github.com/kvesteri/sqlalchemy-utils
-
-Documentation: https://sqlalchemy-utils.readthedocs.io
+Summary: Various utility functions for SQLAlchemy (with no extras)
 
 Current build status
 ====================
@@ -32,6 +28,17 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--arrow-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-arrow) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-arrow.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-arrow) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-arrow.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-arrow) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-arrow.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-arrow) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--babel-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-babel) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-babel.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-babel) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-babel.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-babel) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-babel.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-babel) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--base-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-base) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-base.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-base) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-base.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-base) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-base.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-base) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--color-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-color) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-color.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-color) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-color.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-color) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-color.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-color) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--encrypted-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-encrypted) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-encrypted.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-encrypted) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-encrypted.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-encrypted) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-encrypted.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-encrypted) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--intervals-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-intervals) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-intervals.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-intervals) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-intervals.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-intervals) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-intervals.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-intervals) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--password-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-password) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-password.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-password) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-password.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-password) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-password.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-password) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--pendulum-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-pendulum) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-pendulum.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-pendulum) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-pendulum.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-pendulum) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-pendulum.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-pendulum) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--phone-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-phone) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-phone.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-phone) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-phone.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-phone) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-phone.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-phone) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--timezone-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-timezone) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-timezone.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-timezone) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-timezone.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-timezone) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-timezone.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-timezone) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlalchemy--utils--url-green.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-url) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlalchemy-utils-url.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-url) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlalchemy-utils-url.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-url) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlalchemy-utils-url.svg)](https://anaconda.org/conda-forge/sqlalchemy-utils-url) |
 
 Installing sqlalchemy-utils
 ===========================
@@ -43,16 +50,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `sqlalchemy-utils` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `sqlalchemy-utils, sqlalchemy-utils-arrow, sqlalchemy-utils-babel, sqlalchemy-utils-base, sqlalchemy-utils-color, sqlalchemy-utils-encrypted, sqlalchemy-utils-intervals, sqlalchemy-utils-password, sqlalchemy-utils-pendulum, sqlalchemy-utils-phone, sqlalchemy-utils-timezone, sqlalchemy-utils-url` can be installed with `conda`:
 
 ```
-conda install sqlalchemy-utils
+conda install sqlalchemy-utils sqlalchemy-utils-arrow sqlalchemy-utils-babel sqlalchemy-utils-base sqlalchemy-utils-color sqlalchemy-utils-encrypted sqlalchemy-utils-intervals sqlalchemy-utils-password sqlalchemy-utils-pendulum sqlalchemy-utils-phone sqlalchemy-utils-timezone sqlalchemy-utils-url
 ```
 
 or with `mamba`:
 
 ```
-mamba install sqlalchemy-utils
+mamba install sqlalchemy-utils sqlalchemy-utils-arrow sqlalchemy-utils-babel sqlalchemy-utils-base sqlalchemy-utils-color sqlalchemy-utils-encrypted sqlalchemy-utils-intervals sqlalchemy-utils-password sqlalchemy-utils-pendulum sqlalchemy-utils-phone sqlalchemy-utils-timezone sqlalchemy-utils-url
 ```
 
 It is possible to list all of the versions of `sqlalchemy-utils` available on your platform with `conda`:
@@ -147,6 +154,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bollwyvl](https://github.com/bollwyvl/)
 * [@igortg](https://github.com/igortg/)
 * [@lvoliveira](https://github.com/lvoliveira/)
 * [@xmnlab](https://github.com/xmnlab/)
