@@ -369,6 +369,5 @@ extra:
   feedstock-name: sqlalchemy-utils
   recipe-maintainers:
     - lvoliveira
-    - igortg
     - xmnlab
     - bollwyvl
