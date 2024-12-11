@@ -271,7 +271,6 @@ Feedstock Maintainers
 =====================
 
 * [@bollwyvl](https://github.com/bollwyvl/)
-* [@igortg](https://github.com/igortg/)
 * [@lvoliveira](https://github.com/lvoliveira/)
 * [@xmnlab](https://github.com/xmnlab/)
 
