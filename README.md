@@ -17,14 +17,14 @@ Development: https://github.com/kvesteri/sqlalchemy-utils
 
 Documentation: https://sqlalchemy-utils.readthedocs.io
 
-About sqlalchemy-utils-base
----------------------------
+About sqlalchemy-utils
+----------------------
 
 Home: https://github.com/kvesteri/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
-Summary: Various utility functions for SQLAlchemy (with no extras)
+Summary: Various utility functions for SQLAlchemy (with all extras)
 
 About sqlalchemy-utils-arrow
 ----------------------------
@@ -43,6 +43,15 @@ Home: https://github.com/kvesteri/sqlalchemy-utils
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[babel]` extra)
+
+About sqlalchemy-utils-base
+---------------------------
+
+Home: https://github.com/kvesteri/sqlalchemy-utils
+
+Package license: BSD-3-Clause
+
+Summary: Various utility functions for SQLAlchemy (with no extras)
 
 About sqlalchemy-utils-color
 ----------------------------
@@ -115,15 +124,6 @@ Home: https://github.com/kvesteri/sqlalchemy-utils
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[url]` extra)
-
-About sqlalchemy-utils
-----------------------
-
-Home: https://github.com/kvesteri/sqlalchemy-utils
-
-Package license: BSD-3-Clause
-
-Summary: Various utility functions for SQLAlchemy (with all extras)
 
 Current build status
 ====================
