@@ -1,4 +1,4 @@
-{% set version = "0.41.2" %}
+{% set version = "0.42.0" %}
 {% set min_sqlalchemy = "1.3" %}
 
 {% set PYTHON = PYTHON | default("$PYTHON") %}
@@ -8,11 +8,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/S/SQLAlchemy-Utils/SQLAlchemy-Utils-{{ version }}.tar.gz
-  sha256: bc599c8c3b3319e53ce6c5c3c471120bd325d0071fb6f38a10e924e3d07b9990
+  url: https://pypi.org/packages/source/S/SQLAlchemy-Utils/sqlalchemy_utils-{{ version }}.tar.gz
+  sha256: 6d1ecd3eed8b941f0faf8a531f5d5cee7cffa2598fcf8163de8c31c7a417a5e0
 
 build:
-  number: 2
+  number: 0
   noarch: python
 
 requirements:
