@@ -7,7 +7,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlalchemy-util
 About sqlalchemy-utils
 ----------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -20,7 +20,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-arrow
 ----------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -33,7 +33,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-babel
 ----------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -46,7 +46,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-base
 ---------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -59,7 +59,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-color
 ----------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -72,7 +72,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-encrypted
 --------------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -85,7 +85,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-intervals
 --------------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -98,7 +98,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-password
 -------------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -111,7 +111,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-pendulum
 -------------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -124,7 +124,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-phone
 ----------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -137,7 +137,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-timezone
 -------------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
@@ -150,7 +150,7 @@ Documentation: https://sqlalchemy-utils.readthedocs.io/
 About sqlalchemy-utils-url
 --------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
