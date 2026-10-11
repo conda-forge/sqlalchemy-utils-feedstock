@@ -1,0 +1,279 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/prefix-dev/recipe-format/main/schema.json
+schema_version: 1
+
+context:
+  version: "0.43.0"
+  sqlalchemy_min: "2.0"
+  python_check_max: "3.14"
+  summary: Various utility functions for SQLAlchemy
+
+recipe:
+  name: sqlalchemy-utils-split
+  version: ${{ version }}
+
+source:
+  url: https://files.pythonhosted.org/packages/source/S/SQLAlchemy-Utils/sqlalchemy_utils-${{ version }}.tar.gz
+  sha256: 7e8741dbc2c0f992d2181cd69de13de292b3a2a5305a9da832e10d540abcedbf
+
+build:
+  number: 1
+  noarch: python
+
+outputs:
+  - package:
+      name: sqlalchemy-utils-base
+    build:
+      noarch: python
+      script:
+        - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation --disable-pip-version-check --check-build-dependencies
+    requirements:
+      host:
+        - pip
+        - python ${{ python_min }}.*
+        - setuptools >=77.0.0
+      run:
+        - python >=${{ python_min }}
+        - sqlalchemy >=${{ sqlalchemy_min }}
+    tests:
+      - package_contents:
+          strict: true
+          site_packages:
+            - sqlalchemy_utils/**
+            - sqlalchemy_utils-${{ version }}.dist-info/**
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+      - requirements:
+          run:
+            - python ${{ python_min }}.*
+            - sqlalchemy ${{ sqlalchemy_min }}.*
+            - pip
+        script:
+          - pip check
+    about:
+      summary: ${{ summary }} (with no extras)
+
+  - package:
+      name: sqlalchemy-utils-arrow
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - arrow >=0.3.4
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary:  ${{ summary }} (with `[arrow]` extra)
+
+  - package:
+      name: sqlalchemy-utils-babel
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - babel >=1.3
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary: ${{ summary }} (with `[babel]` extra)
+
+  - package:
+      name: sqlalchemy-utils-color
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - colour >=0.0.4
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary: ${{ summary }} (with `[color]` extra)
+
+  - package:
+      name: sqlalchemy-utils-encrypted
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - cryptography >=0.6
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary: ${{ summary }} (with `[encrypted]` extra)
+
+  - package:
+      name: sqlalchemy-utils-intervals
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - intervals >=0.7.1
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary: ${{ summary }} (with `[intervals]` extra)
+
+  - package:
+      name: sqlalchemy-utils-password
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - passlib >=1.6,<2.0
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary: ${{ summary }} (with `[password]` extra)
+
+  - package:
+      name: sqlalchemy-utils-pendulum
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - pendulum >=2.0.5
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary: ${{ summary }} (with `[pendulum]` extra)
+
+  - package:
+      name: sqlalchemy-utils-phone
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - phonenumbers >=5.9.2
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary: ${{ summary }} (with `[phone]` extra)
+
+  - package:
+      name: sqlalchemy-utils-timezone
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - python-dateutil
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary: ${{ summary }} (with `[timezone]` extra)
+
+  - package:
+      name: sqlalchemy-utils-url
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - furl >=0.4.1
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary: ${{ summary }} (with `[url]` extra)
+
+  - package:
+      name: sqlalchemy-utils
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - ${{ pin_subpackage("sqlalchemy-utils-base", exact=True) }}
+        - ${{ pin_subpackage("sqlalchemy-utils-arrow", exact=True) }}
+        - ${{ pin_subpackage("sqlalchemy-utils-babel", exact=True) }}
+        - ${{ pin_subpackage("sqlalchemy-utils-color", exact=True) }}
+        - ${{ pin_subpackage("sqlalchemy-utils-encrypted", exact=True) }}
+        - ${{ pin_subpackage("sqlalchemy-utils-intervals", exact=True) }}
+        - ${{ pin_subpackage("sqlalchemy-utils-password", exact=True) }}
+        - ${{ pin_subpackage("sqlalchemy-utils-pendulum", exact=True) }}
+        - ${{ pin_subpackage("sqlalchemy-utils-phone", exact=True) }}
+        - ${{ pin_subpackage("sqlalchemy-utils-timezone", exact=True) }}
+        - ${{ pin_subpackage("sqlalchemy-utils-url", exact=True) }}
+    tests:
+      - python:
+          imports: sqlalchemy_utils
+          pip_check: true
+          python_version:
+            - ${{ python_min }}.*
+            - ${{ python_check_max }}.*
+    about:
+      summary: ${{ summary }} (with all extras)
+
+about:
+  license_file: LICENSE
+  license: BSD-3-Clause
+  summary: ${{ summary }}
+  homepage: https://pypi.org/project/sqlalchemy-utils
+  repository: https://github.com/kvesteri/sqlalchemy-utils
+  documentation: https://sqlalchemy-utils.readthedocs.io
+
+extra:
+  feedstock-name: sqlalchemy-utils
+  recipe-maintainers:
+    - lvoliveira
+    - xmnlab
+    - bollwyvl

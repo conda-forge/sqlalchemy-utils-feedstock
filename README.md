@@ -7,123 +7,158 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlalchemy-util
 About sqlalchemy-utils
 ----------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
-
-Package license: BSD-3-Clause
-
-Summary: Various utility functions for SQLAlchemy
-
-Development: https://github.com/kvesteri/sqlalchemy-utils
-
-Documentation: https://sqlalchemy-utils.readthedocs.io
-
-About sqlalchemy-utils
-----------------------
-
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with all extras)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-arrow
 ----------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[arrow]` extra)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-babel
 ----------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[babel]` extra)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-base
 ---------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with no extras)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-color
 ----------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[color]` extra)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-encrypted
 --------------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[encrypted]` extra)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-intervals
 --------------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[intervals]` extra)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-password
 -------------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[password]` extra)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-pendulum
 -------------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[pendulum]` extra)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-phone
 ----------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[phone]` extra)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-timezone
 -------------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[timezone]` extra)
 
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
+
 About sqlalchemy-utils-url
 --------------------------
 
-Home: https://github.com/kvesteri/sqlalchemy-utils
+Home: https://pypi.org/project/sqlalchemy-utils
 
 Package license: BSD-3-Clause
 
 Summary: Various utility functions for SQLAlchemy (with `[url]` extra)
+
+Development: https://github.com/kvesteri/sqlalchemy-utils
+
+Documentation: https://sqlalchemy-utils.readthedocs.io/
 
 Current build status
 ====================
