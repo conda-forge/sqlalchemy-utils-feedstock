@@ -267,7 +267,7 @@ about:
   license_file: LICENSE
   license: BSD-3-Clause
   summary: ${{ summary }}
-  homepage: https://github.com/kvesteri/sqlalchemy-utils
+  homepage: https://pypi.org/project/sqlalchemy-utils
   repository: https://github.com/kvesteri/sqlalchemy-utils
   documentation: https://sqlalchemy-utils.readthedocs.io
 
